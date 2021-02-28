@@ -35,7 +35,8 @@ rm -rf auracle-git pacaur
 sudo pacman -S bridge-utils jsoncpp rhash cmake go go-md2man
 git clone https://aur.archlinux.org/docker-git.git
 cd docker-git
-# maybe a 'export GO111MODULE=auto' is necessary
+export GO111MODULE=auto
+export DOCKER_BUILDTAGS='seccomp'
 makepkg -si
 cd ..
 # clean up
