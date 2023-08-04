@@ -1,5 +1,6 @@
 # Archlinux
 Install using [Calam](https://sourceforge.net/projects/blue-arch-installer/)
+
 Edit mirrorlist
 ```bash
 sudo vim /etc/pacman.d/mirrorlist
