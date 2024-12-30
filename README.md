@@ -3,6 +3,7 @@
 Instalation guide
 
 [Official Arch Linux guide](https://wiki.archlinux.org/title/Installation_guide)
+
 [Dreams of Autonomy guide](https://github.com/dreamsofautonomy/arch-from-scratch)
 
 
@@ -63,6 +64,16 @@ cd ..
 #clean up
 rm -rf auracle-git pacaur
 ```
+
+## Install GRML ZSH
+```bash
+sudo pacman -S grml-zsh-config
+```
+
+## GRML ZSH Prompt Customization
+[ZSH Tokens](https://zsh.sourceforge.io/Doc/Release/Prompt-Expansion.html)
+
+[GRML Tokens](https://gist.github.com/mattmc3/7cf02ac04c73fbb55697a04ed4b10f72)
 
 ## Install docker
 ```bash
